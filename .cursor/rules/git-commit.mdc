@@ -1,0 +1,16 @@
+---
+alwaysApply: true
+description: Git commit 提交信息规范
+alwaysApply: true
+globs: ["COMMIT_EDITMSG","**/*.md"]
+---
+
+# Git提交注释规范
+
+1. commit信息格式：`类型(模块): 简短中文描述`
+   类型可选：feat新功能 / fix修复bug / refactor重构 / docs注释文档 / style格式调整
+2. 示例：
+   feat(user): 新增用户分页查询工具函数
+   fix(table): 修复分页参数乱码问题
+3. 描述使用简体中文，清晰说明改动内容，不写模糊语句。
+4. 大改动换行补充详细改动说明，单行长度不超过80字符。
